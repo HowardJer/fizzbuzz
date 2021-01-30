@@ -1,10 +1,10 @@
 for (i) in range(1, 31):
     if i % 3 == 0 and i % 5 == 0:
-        print ( str(i) + ' is multiple of 3 and 5')
+        print ('FizzBuzz')
     elif i % 3 == 0:
-        print ( str(i) + ' is multiple of 3')
+        print ('Fizz')
     elif i % 5 == 0:
-        print ( str(i) + ' is multiple of 5')
+        print ('Buzz')
     else:
         print ( str (i) )
     
